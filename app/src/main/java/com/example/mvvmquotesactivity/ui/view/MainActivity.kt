@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             currentQuote?.let {
                 binding.tvQuote.text = currentQuote.quote
                 binding.tvAuthor.text = currentQuote.author
-
+            }
         })
 
         quoteViewModel.isLoading.observe(this, Observer {
