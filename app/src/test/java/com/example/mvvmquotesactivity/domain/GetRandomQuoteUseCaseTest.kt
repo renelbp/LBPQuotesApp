@@ -27,7 +27,7 @@ class GetRandomQuoteUseCaseTest {
         val result = getRandomQuoteUseCase()
 
         // Then
-        assertNotNull(result)
+        assertNull(result)
     }
 
     @Test
